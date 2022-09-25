@@ -1,0 +1,47 @@
+.carousel-fade img {
+    width: 100%;
+    max-height: 460px;
+}
+
+.carousel-fade {
+    height: 300px;
+}
+#footerdiv {
+    padding-top: 40px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-color: rgb(242, 242, 242);
+}
+
+.sppb-section {
+    backface-visibility: hidden;
+    z-index: 1;
+    position: relative;
+    will-change: top;
+}
+.container:before{
+    display: table;
+    content: " ";
+}
+ul.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+#sp-top-bar {
+    background-color: #3d3d3d;
+    color: #d4d4d4;
+    padding: 5px 0 4px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
